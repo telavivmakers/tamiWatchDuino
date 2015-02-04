@@ -1,8 +1,9 @@
 /*
-  Blink
-  Turns on an LED on for one second, then off for one second, repeatedly.
- 
-  This example code is in the public domain.
+ * Cycle a monitored computer when it is off. We have a welcome computer (EPIA)
+ * whose BIOS is set to start on power on but doesn't always, but it does
+ * always when we cycle the power via removing the plug and reinserting it.
+ *
+ * So this arduino will do that automatically.
  */
  
 // Pin 13 has an LED connected on most Arduino boards.
